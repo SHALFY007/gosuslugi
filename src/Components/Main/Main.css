@@ -1,0 +1,116 @@
+a {
+    text-decoration: none;
+}
+
+.main {
+    background: #fafcff;
+    padding: 24px 16px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_back {
+    color: #1d5deb; 
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.main_back img {
+    margin-right: 8px;
+}
+
+.mt_32 {
+    margin-top: 32px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.passport_title {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.help_buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 24px;
+}
+
+.help_btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45px;
+    align-items: center;
+    border: none;
+    background: none;
+}
+
+.help_btn a {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.pass {
+    padding: 24px;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 6px 16px #e6ebf5cc;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pass_name {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Lato,Arial,sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+
+.pass_block {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.crit {
+    color: #66727f;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.crit_name {
+    font-size: 16px;
+    line-height: 24px;
+    color: #0b1f33;
+}
+
+.file_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 104px;
+    border: 2px dashed #99b1e6;
+}
+
+.file_block_content {
+    display: flex;
+    gap: 12px;
+}
+
+.blue {
+    color: #0d4cd3;
+    cursor: pointer;
+}
+
+.answears {
+    padding: 10px 0 48px 0;
+}
